@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+}
+
+small {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -1px;
+    color: inherit;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 300;
+    color: inherit;
+    padding: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area_conteudo{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.area_title{
+    color: black;
+    width: 100%;
+    font-weight: bold;
+}
+
+.area_dos_curriculos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.area_dos_curriculos a {
+    text-decoration: none;
+    color: inherit
+}
+
+.area_curriculo{
+    width: 100wh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo_curriculo {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px;
+    padding-bottom: 0 ;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.area_foto img {
+    width: 100%;
+}
+
+.area_nome h1 {
+    padding: 2px;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 9px;
+}
+
+@media screen and (max-width: 800px) {
+    .area_conteudo{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px;
+    }
+}
